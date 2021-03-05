@@ -1,0 +1,28 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#checkoutButton {
+    border: 1px black;
+    padding: 8px;
+    background-color: lightgray;
+    width: 150px;
+    height: 25px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 30px
+}
